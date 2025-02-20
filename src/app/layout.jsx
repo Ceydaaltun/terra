@@ -1,4 +1,4 @@
-import {michroma } from "@/components/Fonts";
+import {michroma,play } from "@/components/Fonts";
 import "./globals.css";
 
 
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico?v=1" sizes="any" />
       </head>
       <body
-        className={`${michroma.className} text-text-primary antialiased bg-black `}
+        className={`${play.className} text-text-primary antialiased bg-black `}
       >
 
         {children}
