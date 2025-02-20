@@ -1,4 +1,4 @@
-import { geistMono, geistSans,michroma } from "@/components/Fonts";
+import {michroma } from "@/components/Fonts";
 import "./globals.css";
 
 
