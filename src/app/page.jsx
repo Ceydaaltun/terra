@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Hero from "@/components/hero";
+import Hero from "@/components/Hero";
 import MissionAndVision from "./mission-and-vision/page";
 import About from "./about/page";
 import Contact from "./contact/page";
