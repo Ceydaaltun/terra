@@ -21,6 +21,8 @@
 import { michroma } from './Fonts'
 import Menu from './Menu'
 import Link from 'next/link'
+import Image from "next/image";
+
 
 
 export default function Hero() {
@@ -39,7 +41,14 @@ export default function Hero() {
       </header>
 
       <div className='bg-black -mt-[1px]'>
-        <div className='relative bg-[url("/milkyway.jpg")] bg-repeat-x bg-cover h-[80vh]'>
+        <div className='relative h-[80vh]'>
+          <Image
+            src="/milkyway.jpg"
+            alt="Milky Way"
+            fill
+            priority
+            className="object-cover object-center"
+          />
           <div className='absolute inset-0 pointer-events-none z-0 bg-gradient-to-b from-black/70 via-transparent to-black/70'></div>
           <div className='absolute bottom-10 w-full z-10'>
             <div className='flex items-center justify-center gap-x-6'>
