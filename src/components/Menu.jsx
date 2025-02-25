@@ -48,6 +48,7 @@ export default function Menu() {
                 <Hamburger
                     toggled={isOpen}
                     toggle={setIsOpen}
+                    label={isOpen ? "Close menu" : "Open menu"}
                 />
                 <Dialog open={isOpen} onClose={handleMenuClose} className='relative z-50'>
                     <div className=' fixed inset-0 p-4'>
