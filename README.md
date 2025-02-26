@@ -34,11 +34,11 @@ Key features include interactive components like a star rating system and smooth
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/ceydaaltun/terra.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd your-repo-name
+   cd terra
    ```
 3. Install the dependencies:
    ```bash
@@ -61,25 +61,6 @@ Key features include interactive components like a star rating system and smooth
 - `/mission-and-vision` - Mission and Vision page
 - `/contact` - Contact page
 - Additional routes can be added as needed.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a pull request.
 
 ## License
 
